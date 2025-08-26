@@ -10,6 +10,7 @@ import Share from './Components/share'
 import Footer from './Components/footer'
 import HomePage from './Components/HomePage'
 import Layout from './Components/Layout'
+import Contect from './Components/Contect'
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
           <Route path='/' element={<Layout />}>
             <Route index element={<HomePage />} />
             <Route path='about' element={<h1>About Page</h1>} />
-            <Route path='contact' element={<h1>Contact Page</h1>} />
+            <Route path='contact' element={<Contect/>} />
             <Route path='blog' element={<h1>Blog Page</h1>} />
             <Route path='*' element={<h1>404 Not Found</h1>} />
           </Route>
