@@ -1,12 +1,11 @@
-import { useState } from 'react'
 import './App.css'
-import Header from './Components/Header'
+import Checkout from './Components/Checkout'
 
 function App() {
 
   return (
     <>
-     <Header />
+     <Checkout/>
     </>
   )
 }
